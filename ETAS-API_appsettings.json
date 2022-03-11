@@ -1,0 +1,22 @@
+{
+  "ConnectionStrings": {
+    "DbConnection": "Data Source=10.150.0.242;Initial Catalog=ETAS;User ID=sa;Password=$Passw0rd;",
+    "SecureAccessConnectionString": "Data Source=10.150.0.241;Initial Catalog=SecureAccess;User ID=sa;Password=$Passw0rd"
+  },
+  "AppSetting": {
+    "ApiKey": "dDppBtJqR1mG8b86MRJvs3U0Ee4NsuYZUYOwYoBQOix7K26wZzEmHNYrKic8rfS8jixsfhCB2emoqa1DBySrkiEcqeo53iPH",
+    "SecureAccessApi": "http://10.150.0.42/sa-api/api/secureaccess/",
+    "BaseUrl": "",
+    "UploadTo": "D:\\etas_data"
+  },
+  "MaxPossibleAnswers": 5,
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedOrigins":"http://10.150.0.42/etas",
+  "AllowedHosts": "*"
+}
